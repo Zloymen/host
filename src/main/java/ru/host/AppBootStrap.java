@@ -16,7 +16,7 @@ import java.util.Properties;
  * Created by Zloy on 03.07.2017.
  */
 
-@WebListener
+//@WebListener
 public class AppBootStrap implements ServletContextListener {
     private static final Logger LOGGER = LoggerFactory.getLogger(AppBootStrap.class);
     @Override

@@ -17,12 +17,16 @@ import java.io.IOException;
  * Created by Zloy on 03.07.2017.
  */
 
-@WebServlet(urlPatterns = "/*")
+//@WebServlet(urlPatterns = "/*")
 public class MainServlet extends HttpServlet {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MainServlet.class);
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String tableName = req.getParameter("tableName");
+        String schemaName = req.getParameter("schemaName");
+        String strUri = req.getRequestURI();
+
 
     }
 
