@@ -39,7 +39,6 @@ public class AppBootStrap implements ServletContextListener {
 
         } catch (Exception e) {
             LOGGER.error("Error run", e);
-            return;
         }
     }
 

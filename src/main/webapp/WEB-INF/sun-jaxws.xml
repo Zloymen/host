@@ -3,7 +3,7 @@
         xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
         version="2.0">
     <endpoint
-            name="HelloWs"
+            name="generateSQL"
             implementation="ru.host.servlet.DBWebService"
             url-pattern="/generateSQL"/>
 </endpoints>
